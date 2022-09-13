@@ -1,0 +1,72 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+/*
+5. Selector por atributo
+*/
+
+[class]{
+    background-color: #44535d;
+}
+
+a[href]{/*Se aplicar{a el estilo a los links*/ 
+    text-align: center;
+    margin-left: 2%;
+    color: #B47946;
+}
+/*Utilizando sufijos*/
+a[href$=".com"]{
+    text-align: right;
+    margin-top: 10px;
+    color: red;
+}
+/*Utiliza prefijos*/
+article[class^="pre"]{
+    margin-top: 25px;
+}
+/*Conteniendo la palabra*/
+p[class*="rra"]{
+    background-color: #B47946;
+}
+
+/*Modificar el hermano
+    Elemento hermano seleccionado, elemento hermano siguente que se va a afectar    
+*/
+.subtitulo + article{ /*El "+" modifica el siguiente articulo herman*/
+    padding: 10px;
+    margin-top: 5px;
+    background-color: beige;
+}
+
+h2 ~ p{
+    padding: 10px;
+    border: 4px double #136aa5;
+    text-align: center;
+}
+
+/*desendencia*/
+.content .subtitulo{
+    background-color: purple;
+}
+/*
+h1, .articulo1, #segundoParrafo{
+    text-align: center;
+*/
+
+/*Selectores multiples*/
+
+.parrafo.aside{
+    font-size: 25px;
+    margin: 3%;
+    padding: 3px; 
+}
+
+/*Selector hijos directos*/
+
+.ubicacion>.press{
+    background-color: rgb(110, 107, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}

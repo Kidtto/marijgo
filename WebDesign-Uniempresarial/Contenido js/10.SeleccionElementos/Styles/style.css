@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parrafo{
+    width: 40%;
+    height: auto;
+    background-color: aquamarine;
+    color: black;
+    margin: 4% auto;
+    padding: 5px;
+}

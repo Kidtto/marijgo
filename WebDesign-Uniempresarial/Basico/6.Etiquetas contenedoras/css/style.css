@@ -1,0 +1,22 @@
+img{
+    border: 2px solid black;
+    image-rendering: pixelated;
+    width: 120%;
+    height: 400px;
+}
+#container{
+    width: 500px;
+    height: 500px;
+}
+#Principal{
+    text-align: center;
+}
+h2{
+    color: red;
+}
+h3{
+    color: gray;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

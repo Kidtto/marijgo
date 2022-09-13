@@ -1,0 +1,52 @@
+/*
+¿Que es css? (Cascading style sheets)
+
+Es un lenguaje aliado a html que nos permite formatear de manera agradable el ojo humano, los documentos HTML. es decir que es un lenguaje de estilos para documentos html
+
+La estructura basica para trabajar en CSS es 
+
+selector{
+    atributo: valor;
+}
+
+Selector: selecciona que elemento se va a modificar 
+    1. Selector por etiqueta: cambia el estilo de todas las etiquetas
+    2. Selector por clase: cambia o modifica el estilo del elemento que use en su atributo class el estilo 
+    3. Selector por id: cambia o modifica el estilo del elemento que posea el id
+    4. Selector universal: *
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: darkviolet;
+    background-color: gray;
+    text-align: center;
+}
+
+/*
+Selector por clase ". "
+*/
+.articulo1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: bisque;
+    padding: 0px 0px 10px 20px
+}
+
+/*
+Selector por id 
+*/
+
+#segundoparrafo{
+    border-radius: 5px;
+    background-color: rgb(137, 52, 52);
+    color: rgb(44, 159, 208);
+    padding: 5px;
+}
+/*Agrupacion de selectores*/
+
+h1, .articulo, #segundoParrafo{
+    text-align: center;
+}
